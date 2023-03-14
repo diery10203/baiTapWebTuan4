@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #wrapper {
+            display: flex;
+            justify-content: center;
+        }
+        
+        #container {
+            display: flex;
+            justify-content: space-between;
+            width: 1440px;
+        }
+        
+        #center {
+            width: 910px;
+            background-color: bisque;
+        }
+        
+        #right {
+            width: 440px;
+            background-color: aqua;
+        }
+        
+        #left {
+            width: 90px;
+            height: 870px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        
+        #left_above {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        #below {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .item {
+            width: 32px;
+            margin-top: 50px;
+        }
+        
+        #setting {
+            margin-top: 36px;
+        }
+        
+        #middle {
+            display: flex;
+            justify-content: space-between;
+            width: 91%;
+            margin-left: 40px;
+        }
+        
+        #middle2 {
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            align-items: center;
+            width: 60%;
+            margin-left: 200px;
+        }
+        
+        #title {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-left: 40px;
+        }
+        
+        #title2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 40%;
+            margin-left: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="container">
+            <div id="left">
+                <div id="left_above">
+                    <img class="item" src="logo.png" alt="">
+                    <img class="item" src="home.png" alt="">
+                    <img class="item" src="cam.png" alt="">
+                    <img class="item" src="chatting.png" alt="">
+                    <img class="item" src="user.png" alt="">
+                </div>
+                <div id="below">
+                    <img src="avatar.png" width="44" alt="">
+                    <img id="setting" src="setting.png" width="44" alt="">
+                </div>
+            </div>
+            <div id="center">
+                <div id="title">
+                    <h3>Meeting Title</h3>
+                    <button style="right: auto; border-radius: 50px; width: 75px; height: 35px; border-color: red; margin-right: 40px; color: tomato;">12:00</button>
+                </div>
+                <div id="title2">
+                    <p>
+                        <button style="width: 100px; height: 30px; border-radius: 60px; background-color: deeppink; border-color: deeppink; color: white;">Internal</button>
+                        <p>Sep 02,2022</p>
+                        <p>|</p>
+                        <p>08:00 - 09:00 AM</p>
+                    </p>
+                </div>
+                <img src="img_big.png" alt="" style="border-radius: 10px; margin-left: 40px;">
+                <div id="space" style="width: 1000px; height: 30px;"></div>
+                <div id="middle">
+                    <img src="img2.png" alt="" style="border-radius: 10px;">
+                    <img src="img1.png" alt="" style="border-radius: 10px;">
+                    <img src="img.png" alt="" style="border-radius: 10px;">
+                </div>
+                <div id="space" style="width: 1000px; height: 30px;"></div>
+                <div id="middle2">
+                    <img src="mic_grey_color.png" alt="">
+                    <img src="cam_color.png" alt="">
+                    <img src="speaker_grey_color.png" alt="">
+                    <button name="button" style="width: 200px; height: 50px; background-color: rgb(202, 59, 59); border-radius: 10px; color: white; border-color: rgb(202, 59, 59);" type="button">End meeting</button>
+                    <img src="Button 2179.png" alt="">
+                    <img src="share.png" alt="">
+                    <img src="button.png" alt="">
+                </div>
+            </div>
+            <div id="right">right</div>
+
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
